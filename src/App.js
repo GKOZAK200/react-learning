@@ -1,17 +1,15 @@
 import './App.css';
 
-function MyFirstComponent() {
+function Title() {
   return (
-    <myFirstComponent>
-      <h1>My First Component</h1>
-    </myFirstComponent>
+      <h1>React Learning</h1>
   );
 }
 
 function App() {
   return (
     <div className="App">
-      <MyFirstComponent />
+      <Title />
     </div>
   );
 }
